@@ -9,6 +9,9 @@ terraform {
 
 provider "aws" {
   # Configuration options
+  
+  region = "us-east-1"
+  
   default_tags {
       tags = {
           Owner = "Renato Henrique Berg Neves"
